@@ -115,7 +115,7 @@ a:hover,a:focus,a:visited {
 }
 
 /* ------------------------------------------- HERO SECTION STYLES -------------------------------------- */
-#hero {
+.hero-area {
     background-image: url(../img/banner/banner-bg.png);
     background-repeat: no-repeat;
     background-position: center right;
