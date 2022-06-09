@@ -1,0 +1,165 @@
+/* 
+Template Name : XtraMedia
+Description : Software Web App And Startup Company html template
+Author Name : Shaikh Abu Amer
+Author URL : 
+Version : 1.0
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #314584;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+}
+
+h1 {
+    font-size: 73px;
+    line-height: 95px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 27px;
+    line-height: 39px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 20;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #314584;
+    font-weight: 400;
+}
+
+/* ----------- COMMON STYLES ---------- */
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+    color: inherit;
+}
+
+a{
+    transition: all .4s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff3946;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button:focus,button:hover {
+    outline: none;
+}
+
+a:hover,a:focus,a:visited {
+    outline: none;
+}
+
+.btn-custom-1 {
+    background-color: #ff3946;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 18px 34px;
+    border-radius: 40px;
+    text-transform: capitalize;
+}
+
+.btn-custom-2 {
+    color: #314584;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 18px 34px;
+    border-radius: 40px;
+    text-transform: capitalize;
+}
+
+/* ------------------------------------------- HERO SECTION STYLES -------------------------------------- */
+#hero {
+    background-image: url(../img/banner/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.navbar {
+    padding-top: 42px;
+}
+
+.navbar-brand img {
+    width: 208px;
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+    margin-right: 44px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: #314584;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+#main-menu button {
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ff3946;
+    border: none;
+    box-shadow: 0px 5px 5px #e4e6e7;
+    padding: 16px 34px;
+}
+
+.banner-section {
+    padding: 204px 0px;
+}
+
+.banner-content h1 {
+    margin-bottom: 28px;
+}
+
+.banner-content p {
+    margin-bottom: 38px;
+    color: #6e757a;
+}
+
