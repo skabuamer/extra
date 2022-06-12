@@ -65,7 +65,7 @@ p {
     margin-bottom: 10px;
 }
 
-/* ----------- COMMON STYLES ---------- */
+/* ----------- GLOBAL STYLES ---------- */
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
     color: inherit;
@@ -114,6 +114,19 @@ a:hover,a:focus,a:visited {
     height: 45px;
     padding: 0px 34px;
     border-radius: 40px;
+    text-transform: capitalize;
+}
+
+.section-heading {
+    
+}
+.section-heading h4 { 
+    color: #ff3946;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.section-heading h2 {
     text-transform: capitalize;
 }
 
@@ -186,6 +199,7 @@ a:hover,a:focus,a:visited {
 .single-service {
     padding: 30px 20px;
     box-shadow: 0px 0px 18px #e4e6e7;
+    margin-bottom: 15px;
 }
 
 .single-service img {
@@ -212,13 +226,6 @@ a:hover,a:focus,a:visited {
     
 }
 
-.about-content h4{
-    color: #ff3946;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-bottom: 17px;
-}
-
 .about-content h2 {
     margin-bottom: 50px;
 }
@@ -239,6 +246,190 @@ a:hover,a:focus,a:visited {
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
     color: #314584;
 }
-.carousel-control-next {
+.about-content .carousel-control-next {
     left: 46px;
+}
+
+/* ------------------------------------------- PORTFOLIO SECTION STYLES -------------------------------------- */
+
+#portfolio-section {
+    padding-bottom: 120px;
+}
+
+#portfolio-section .section-heading {
+    margin-bottom: 42px;
+}
+
+.slider-indicators {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.slider-indicators button {
+    position: static;
+}
+.slider-indicators button svg {
+    transition: all .4s ease;
+}
+.slider-indicators button svg:hover {
+    transform: scaleX(1.5);
+    color: #314584;
+}
+
+.slider-btn svg {
+    font-size: 20px;
+    color: #6e757a;
+}
+.content-items {
+    text-align: center;
+}
+
+.content-items img {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.content-items a {
+    color: #ff3946;
+}
+
+.content-items a:hover {
+    color: #314584;
+}
+
+/* ------------------------------------------- BLOG SECTION STYLES -------------------------------------- */
+
+#blog-section .section-heading {
+    margin-bottom: 59px;
+}
+
+#blog-section .content-items {
+    text-align: left;
+}
+
+#blog-section .content-items .carousel-inner {
+    overflow: unset;
+}
+
+#blog-section .single-service {
+    padding: 53px 42px 38px;
+    transition: all .4s ease;
+}
+
+
+#blog-section .single-service h4 {
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+
+#blog-section .single-service h6{
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #6e757a;
+}
+
+#blog-section .single-service p{
+    font-size: 18px;
+    margin-bottom: 37px;
+}
+
+#blog-section .single-service a {
+    display: block;
+    text-align: right;
+    font-size: 25px;
+}
+#blog-section .single-service a {
+    color: #ff3946;
+}
+
+#blog-section .single-service:hover {
+    color: #fff;
+    background-color: #ff3946;
+}
+
+#blog-section .single-service:hover h4, #blog-section .single-service:hover h6, #blog-section .single-service:hover p, #blog-section .single-service:hover a svg {
+    color: #fff;
+}
+
+/* ------------------------------------------- CONTACT SECTION STYLES -------------------------------------- */
+
+#contact-section {
+    padding: 130px;
+}
+#contact-section .section-heading{
+    margin-bottom: 44px;
+}
+#contact-section .form-control{
+    background-color: #F4FAFE;
+    border: 0;
+    border-radius: 0;
+    color: #314584;
+    font-weight: 600;
+    padding: 15px 15px;
+}
+
+#contact-section #email, #subject {
+    margin-bottom: 40px;
+}
+
+#contact-section #message {
+    margin-bottom: 65px;
+}
+
+#contact-section form {
+    text-align: center;
+}
+
+/* ------------------------------------------- FOOTER SECTION STYLES -------------------------------------- */
+
+footer {
+    background: #314584;
+    text-align: center;
+    color: #fff;
+    padding: 127px 0px 101px 0px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 53px;
+}
+
+footer ul li {
+    margin-right: 40px;
+}
+
+footer ul li:last-child {
+    margin-right: 0px;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer h6 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+.social-icons { 
+
+}
+.social-icons a {
+    margin-right: 75px;
+}
+
+.social-icons a:last-child {
+    margin-right: 0px;
+}
+
+.social-icons svg {
+    color: #fff;
+    font-size: 38px;
+    
 }
