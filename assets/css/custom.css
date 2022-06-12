@@ -200,6 +200,7 @@ a:hover,a:focus,a:visited {
     padding: 30px 20px;
     box-shadow: 0px 0px 18px #e4e6e7;
     margin-bottom: 15px;
+    background-color: #fff;
 }
 
 .single-service img {
@@ -214,6 +215,37 @@ a:hover,a:focus,a:visited {
 .single-service p {
     font-size: 14px;
     line-height: 23px;
+}
+.bg-shape-service-about {
+    position: relative;
+}
+
+.bg-shape-service-about::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/backgrounds/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.bg-shape-service-about::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/backgrounds/bg-3.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* ------------------------------------------- ABOUT SECTION STYLES -------------------------------------- */
@@ -251,6 +283,24 @@ a:hover,a:focus,a:visited {
 }
 
 /* ------------------------------------------- PORTFOLIO SECTION STYLES -------------------------------------- */
+
+.bg-shape-portfolio {
+    position: relative;
+}
+
+.bg-shape-portfolio::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/backgrounds/bg-4.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
 
 #portfolio-section {
     padding-bottom: 120px;
@@ -301,6 +351,25 @@ a:hover,a:focus,a:visited {
 }
 
 /* ------------------------------------------- BLOG SECTION STYLES -------------------------------------- */
+
+.bg-shape-blog-contact {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-shape-blog-contact::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: -150px;
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/backgrounds/bg-5.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
 
 #blog-section .section-heading {
     margin-bottom: 59px;
@@ -357,7 +426,7 @@ a:hover,a:focus,a:visited {
 /* ------------------------------------------- CONTACT SECTION STYLES -------------------------------------- */
 
 #contact-section {
-    padding: 130px;
+    padding: 130px 0px;
 }
 #contact-section .section-heading{
     margin-bottom: 44px;
@@ -396,11 +465,13 @@ footer ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 53px;
 }
 
 footer ul li {
     margin-right: 40px;
+    margin-bottom: 10px;
 }
 
 footer ul li:last-child {
