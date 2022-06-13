@@ -1,0 +1,141 @@
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    
+    .banner-section {
+        padding: 50px 0px;
+    }
+
+    .banner-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-content {
+        padding: 0px 0px 20px;
+    }
+
+    .slider-indicators {
+        width: 70px;
+        margin-left: auto;
+    }
+
+    .service-heading {
+        padding: 25px 0px;
+    }
+
+    #about-section {
+        padding: 90px 0px;
+    }
+
+    .about-img {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    
+    .banner-section {
+        padding: 70px 0px;
+    }
+
+    .banner-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-content {
+        padding: 0px 0px 30px;
+    }
+
+    .slider-indicators {
+        width: 70px;
+        margin-left: auto;
+    }
+
+    .service-heading {
+        padding: 25px 0px;
+    }
+
+    #about-section {
+        padding: 100px 0px;
+    }
+
+    .about-img {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* MD Device :768px. */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .banner-content {
+        padding: 100px 0px;
+    }
+
+    .buttons {
+        justify-content: space-between;
+    }
+
+    .buttons .btn-custom-1 {
+        padding: 0px 30px;
+    }
+
+    .service-heading { 
+        margin: 30px 0px;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0px 0px;
+    } 
+
+    #service-section .service-heading h2{ 
+        font-size: 40px;
+        line-height: 60px;
+        padding-bottom: 25px;
+    }
+
+    #service-section .service-heading a{
+        margin-top: 7px;
+    }
+
+    #about-section {
+        padding: 90px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-expand-lg .nav-item .nav-link {
+        margin-right: 20px;
+        font-weight: 400;
+    }
+
+    .banner-content {
+        padding: 110px 0px;
+    }
+
+    #about-section {
+        padding: 110px 0px;
+    }
+}

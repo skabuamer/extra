@@ -15,13 +15,16 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
     <div class="hero-area">
     <!---------------------------------------------------- HEADER SECTION START -------------------------------------------->
         <header>
             <nav class="navbar navbar-expand-lg">
-                <div class="container">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="assets/img/logo.png" alt="">
                     </a>
@@ -69,18 +72,20 @@
         <section class="banner-section">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-7">
                         <div class="banner-content">
                             <h1>The Spirit of Digital Agency.</h1>
                             <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-                            <div class="buttons">
+                            <div class="buttons d-md-flex">
                                 <a href="#" class="btn btn-custom-1">more about us</a>
                                 <a href="#" class="btn btn-custom-2">get in touch.</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <img class="img-fluid" src="assets/img/banner/banner-img.png" alt="">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="banner-img">
+                            <img class="img-fluid" src="assets/img/banner/banner-img.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,13 +139,13 @@
     <section id="about-section">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-6">
                     <div class="about-img d-flex justify-content-end">
                         <img src="assets/img/about-img.png" alt="">
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="about-content">
                         <div class="section-heading">
                             <h4>our company</h4>
@@ -186,7 +191,7 @@
         <div class="container">
             <div class="section-heading">
                 <div class="row justify-content-between align-items-end">
-                    <div class="col-lg-5 col-md-7">
+                    <div class="col-lg-6 col-md-7">
                         <h2>See some of our Creative work.</h2>
                     </div>
 
@@ -275,7 +280,7 @@
         <div class="container">
             <div class="section-heading">
                 <div class="row justify-content-between align-items-end">
-                    <div class="col-lg-5 col-md-7">
+                    <div class="col-lg-6 col-md-7">
                         <h4>blog stories</h4>
                         <h2>See some of our Creative work.</h2>
                     </div>
@@ -380,11 +385,11 @@
 
             <form action="#">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject">
                     </div>
                 </div>
